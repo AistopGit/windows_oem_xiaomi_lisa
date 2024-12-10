@@ -2,6 +2,7 @@
     <Drivers>
         <BaseDriverPackages>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA_MINIMAL\I2C" Name="qci2c7280.inf" ID="qci2c7280"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA_MINIMAL\SPI" Name="qcspi7280.inf" ID="qcspi7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA_MINIMAL\TrEE" Name="QcTrEE.inf" ID="QcTrEE"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA\Extensions\TrEE" Name="QcTreeExtQcom7280.inf" ID="QcTreeExtQcom7280"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA\Extensions\TrEE" Name="QcTreeExtOem7280.inf" ID="QcTreeExtOem7280"/>
@@ -19,6 +20,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA\Drivers\Camera\ISP" Name="qccamisp_ext7280.inf" ID="qccamisp_ext7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA\Drivers\Cellular" Name="qcipa7280.inf" ID="qcipa7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA\Drivers\Sensors" Name="qcSensors.inf" ID="qcSensors"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA\Drivers\Touch" Name="vhidmini.inf" ID="vhidmini"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA\Drivers\Wlan" Name="qcwlan7280.inf" ID="qcwlan7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA\Extensions\Audio\ACDB" Name="qcacsp_crd7280.inf" ID="qcacsp_crd7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA\Extensions\Audio\AudMiniport" Name="qcaudminiportCRD_Extension7280.inf" ID="qcaudminiportCRD_Extension7280"/>
@@ -36,7 +38,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA\Extensions\Subsystems" Name="qcsubsys_ext_wpss7280.inf" ID="qcsubsys_ext_wpss7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA\Extensions\Wlan" Name="qcwlan_ext_wpss7280.inf" ID="qcwlan_ext_wpss7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA\Extensions\Wlan" Name="qcwlan_ext7280.inf" ID="qcwlan_ext7280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE_MINIMAL\HALs" Name="HalExtQCWdogTimer7280.inf" ID="HalExtQCWdogTimer7280"/>
+            <!--DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE_MINIMAL\HALs" Name="HalExtQCWdogTimer7280.inf" ID="HalExtQCWdogTimer7280"/-->
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE_MINIMAL\SOC\ACPI" Name="qcabd.inf" ID="qcabd"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE_MINIMAL\SOC\AutoReg" Name="qcpsautoreg7280.inf" ID="qcpsautoreg7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Platform\PLATFORM.SOC_QC7325.BASE_MINIMAL\SOC\Buses" Name="qcglink7280.inf" ID="qcglink7280"/>
