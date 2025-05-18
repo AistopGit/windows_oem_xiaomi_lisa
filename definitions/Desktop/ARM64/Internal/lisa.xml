@@ -1,6 +1,7 @@
 <FeatureManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/embedded/2004/10/ImageUpdate" Revision="1" SchemaVersion="1.3">
     <Drivers>
         <BaseDriverPackages>
+			<DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE\Services\MobileBridgeUser" Name="MobileHapticsService.inf" ID="MobileHapticsService"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA_MINIMAL\I2C" Name="qci2c7280.inf" ID="qci2c7280"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA_MINIMAL\SPI" Name="qcspi7280.inf" ID="qcspi7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA_MINIMAL\TrEE" Name="QcTrEE.inf" ID="QcTrEE"/>
@@ -21,6 +22,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA\Drivers\Cellular" Name="qcipa7280.inf" ID="qcipa7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA\Drivers\Sensors" Name="qcSensors.inf" ID="qcSensors"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA\Drivers\Touch" Name="vhidmini.inf" ID="vhidmini"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA\Drivers\VibrationMotor" Name="AW8624Haptics.inf" ID="AW8624Haptics"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA\Drivers\Wlan" Name="qcwlan7280.inf" ID="qcwlan7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA\Extensions\Audio\ACDB" Name="qcacsp_crd7280.inf" ID="qcacsp_crd7280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Device\lisa\DEVICE.SOC_QC7325.LISA\Extensions\Audio\AudMiniport" Name="qcaudminiportCRD_Extension7280.inf" ID="qcaudminiportCRD_Extension7280"/>
