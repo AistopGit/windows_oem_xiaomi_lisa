@@ -8,7 +8,7 @@ Class       = System
 ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318}
 Provider    = %ManufacturerName%
 CatalogFile = AW8624Haptics.cat
-DriverVer = 05/18/2025,17.53.23.586
+DriverVer = 06/18/2025,18.11.41.935
 PnpLockdown = 1
 
 [DestinationDirs]
